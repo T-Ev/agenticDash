@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# Agentic Dashboard
 
-## Project info
+A powerful dashboard for managing and monitoring your AI agents. This project provides a modern, intuitive interface for overseeing your AI operations, making it easier to track, manage, and optimize your AI agents' performance.
 
-**URL**: https://lovable.dev/projects/106133d9-2f3a-4adb-a7c5-02432303a05b
+## 🎥 Demo
 
-## How can I edit this code?
+Check out our demo video to see the dashboard in action: [Watch Demo](https://www.youtube.com/watch?v=EVMMqn2ky-4)
 
-There are several ways of editing your application.
+## 🚀 Why Agentic Dashboard?
 
-**Use Lovable**
+Managing AI agents effectively is crucial in today's AI-driven world. This dashboard helps you:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/106133d9-2f3a-4adb-a7c5-02432303a05b) and start prompting.
+- Monitor multiple AI agents in real-time
+- Track performance metrics and analytics
+- Manage agent configurations and settings
+- Visualize agent interactions and workflows
+- Optimize resource allocation and usage
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Shadcn UI Components
+- React Query
+- React Router
+- Recharts for data visualization
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📋 Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js 16
+- npm or yarn
 
-Follow these steps:
+## 🚀 Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone [your-repo-url]
+cd agentic-dashboard
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm install
+# or
+yarn install
+```
 
-**Use GitHub Codespaces**
+3. Start the development server:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## What technologies are used for this project?
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-This project is built with:
+## 🏗️ Available Scripts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
 
-## How can I deploy this project?
+## 🎨 Features
 
-Simply open [Lovable](https://lovable.dev/projects/106133d9-2f3a-4adb-a7c5-02432303a05b) and click on Share -> Publish.
+- Modern, responsive UI with dark mode support
+- Real-time agent monitoring
+- Performance analytics and metrics
+- Interactive dashboards
+- Customizable agent configurations
+- Resource usage tracking
+- Error monitoring and logging
 
-## Can I connect a custom domain to my Lovable project?
+## 🤝 Contributing
 
-Yes, you can!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📝 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License - see the LICENSE file for details.
