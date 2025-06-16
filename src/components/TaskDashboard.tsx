@@ -53,7 +53,7 @@ interface RunAgentInput {
   forwardedProps: Record<string, unknown>;
 }
 
-const BACKEND_URL = "http://localhost:8000/awp"; //"https://ag-ui-demo.onrender.com/awp"; //
+const BACKEND_URL = "https://ag-ui-demo.onrender.com/awp"; //"http://localhost:8000/awp"; //
 
 function parseSSEBuffer(buffer: string): AGUIEvent[] {
   const events: AGUIEvent[] = [];
